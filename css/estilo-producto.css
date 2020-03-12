@@ -1,0 +1,149 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Baskerville Old Face;
+}
+
+header{
+background-color:white;
+height: 60px;
+
+}
+
+
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px 20px;
+
+}
+
+.logo img{
+  float: left;
+height: 40px;
+width: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav{
+  background-color: white;
+  height: 50px;
+
+}
+
+
+
+/* Inicia producto */
+.container{
+  display: flex;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.image_producto1{
+  padding-right: 50px;
+}
+
+.boton-ch, .boton-m, .boton-g {
+  width: 15%;
+  background-color: white;
+  border: 1px solid white;
+}
+
+.boton-compra{
+width: 80%;
+  height: 40px;
+color: white;
+background-color: black;
+border: 1px solid black;
+}
+/*Finaliza producto*/
+
+/* Inicia footer*/
+
+
+.terminos {
+    text-align: center;
+    color: #717171;
+    padding-top: 175px;
+
+}
+
+.Boletin{
+
+  margin-top: -14%;
+  margin-left: 3%;
+  color: white;
+}
+
+.texto3{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.data{
+  margin-top: -5%;
+  width: 30%;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #e6e5e9;
+  box-sizing: border-box;
+}
+
+.botonn{
+  margin-top: -30px;
+  margin-left: 35%;
+
+}
+
+.main_button{
+  color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #FFAA00;
+    border: 1px solid #FFAA00;
+
+}
+
+.redes{
+  display: flex;
+  justify-content: right;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.fb, .ig, .tw{
+  padding:15px;
+}
+
+.tel{
+  color: #717171;
+  margin-left: 85%;
+margin-top: -120px;
+}
+
+.dir{
+    color: #717171;
+    margin-top: -15px;
+    margin-left: 83%;
+}
+footer{
+  background-color: #3E3E3E;
+  height: 200px;
+  margin-top: 10%;
+font-size: 15px;
+}

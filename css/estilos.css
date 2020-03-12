@@ -1,0 +1,222 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Baskerville Old Face;
+}
+
+header{
+background-color:white;
+height: 60px;
+
+}
+
+
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px 20px;
+
+}
+
+.logo img{
+  float: left;
+height: 40px;
+width: auto;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.nav{
+  background-color: white;
+  height: 50px;
+
+}
+
+.fondo{
+  background-image: url(../Grupo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.boton{
+  position: absolute;
+  top: 72%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+color: white;
+background-color: #1D1D1D;
+padding:2px;
+padding-left: 5px;
+padding-right: 5px;
+border-radius: 25px;
+transition: 0.6s ease;
+}
+
+.btn{
+  color:#fff;
+  padding:5px;
+  padding-left:10px;
+  padding-right: 10px;
+  border-radius: 25px;
+}
+
+.boton:hover{
+  background-color: white;
+  color: black;
+}
+
+.moda{
+text-align: center;
+margin-top: 3%;
+}
+
+.lineaIzq{
+  height:1px;
+  background-color: black;
+  width: 40%;
+  margin-top: -5%;
+}
+
+.lineaDer{
+  float: right;
+  height:1px;
+  background-color: black;
+  width: 40%;
+  margin-top: -1.5%;
+}
+
+.rec{
+  float: left;
+
+  margin-top: 140px;
+  margin-left: 80px;
+}
+
+.vestidos{
+  display: flex;
+  margin-top:17%;
+position: absolute;
+left: 9%;
+}
+
+.vestidos img{
+  padding: 40px;
+}
+
+.beneficios{
+margin-top: 55%;
+text-align: center;
+
+}
+
+.beneficioNo{
+  position: absolute;
+  left: 13%;
+  display: flex;
+  margin-top: 2px;
+}
+
+.beneficio1, .beneficio2, .beneficio3{
+  padding: 70px;
+}
+
+.texto{
+  margin-top:30%;
+  text-align: center;
+}
+
+.menciones_content{
+  display: flex;
+  position: absolute;
+  left: 23%;
+}
+
+.mencion1, .mencion2{
+  padding: 70px;
+}
+
+.terminos {
+    text-align: center;
+    color: #717171;
+    padding-top: 175px;
+
+}
+
+.Boletin{
+
+  margin-top: -14%;
+  margin-left: 3%;
+  color: white;
+}
+
+.texto3{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+
+.data{
+  margin-top: -5%;
+  width: 30%;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid #e6e5e9;
+  box-sizing: border-box;
+}
+
+.botonn{
+  margin-top: -30px;
+  margin-left: 35%;
+
+}
+
+.main_button{
+  color: white;
+    width: 60px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #FFAA00;
+      border: 1px solid #FFAA00;
+  
+}
+
+.redes{
+  display: flex;
+  justify-content: right;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.fb, .ig, .tw{
+  padding:15px;
+}
+
+.tel{
+  color: #717171;
+  margin-left: 85%;
+margin-top: -120px;
+}
+
+.dir{
+    color: #717171;
+    margin-top: -15px;
+    margin-left: 83%;
+}
+footer{
+  background-color: #3E3E3E;
+  height: 200px;
+  margin-top: 25%;
+font-size: 15px;
+}
